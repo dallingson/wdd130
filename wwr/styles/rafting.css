@@ -33,13 +33,9 @@ nav {
 }
 
 nav a {
-    font-size: 1rem;
+    font-size: 20px;
     color: var(--accent2-color); 
     text-decoration: none;
-}
-
-nav a {
-    color: var(--accent2-color); /* Highlight color on hover */
 }
 
 .main {
