@@ -1,0 +1,162 @@
+/* Define CSS Variables */
+:root {
+    --primary-color: #8896AB; 
+    --secondary-color: #938581;
+    --accent1-color: #7E6551; 
+    --accent2-color: #466362; 
+}
+
+
+header {
+    font-family: 'Concert One', sans-serif;
+    display: flex; /* Added display for better alignment */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Spread out content if needed */
+    padding: 10px 20px; /* Add spacing */
+    background-color: var(--primary-color); /* Vibrant blue */
+    color: white; /* White text for contrast */
+    font-size: 30px;
+}
+
+header img {
+    display: block;
+    padding: 0.5rem; /* Reduced excessive padding */
+    margin: 0.5rem;
+    max-height: 100px; /* Ensure the logo doesn't grow too large */
+}
+
+nav {
+    gap: 1rem;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+nav a {
+    font-size: 1rem;
+    color: var(--accent2-color); 
+    text-decoration: none;
+}
+
+nav a {
+    color: var(--accent2-color); /* Highlight color on hover */
+}
+
+.main {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+/* Hero Section */
+.hero {
+    font-family: 'Roboto';
+    position: relative;
+    height: 500px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10px;
+    left: 0%;
+    right: 0%;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+}
+
+.hero article {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 20%;
+    bottom: auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    height: auto;
+}
+
+.hero article img {
+    display: block;
+    width: 20%;
+    height: auto;
+    margin-left: 10px;
+    float: right;
+}
+
+.hero article p {
+    display: inline;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    font-size: 30px;
+    width: 70%;
+}
+
+
+
+section {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--secondary-color);
+    padding: 2rem; 
+    margin: 1rem auto;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: black;
+}
+
+section p {
+    margin-bottom: 1rem;
+    line-height: 1.6; 
+    color: #333;
+    font-size: 25px;
+}
+
+section img {
+    display: block; 
+    margin: 2rem auto;
+    max-width: 30%; 
+    height: auto;
+}
+
+footer {
+    padding: 2rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 1rem;
+}
+
+footer nav.sociallinks {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Space between links */
+}
+
+footer nav.sociallinks a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+footer nav.sociallinks a {
+    color: var(--accent2-color);
+}
+
+footer nav.sociallinks img {
+    width: 24px; /* Fixed icon size */
+    height: 24px;
+    margin: 0; /* Removed excessive margin */
+}
