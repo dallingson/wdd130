@@ -231,6 +231,8 @@ section figcaption {
     
 }
 
+/* Double refers to the section that contains 
+both the contact us and message us parts*/
 .double {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
