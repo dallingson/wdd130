@@ -239,11 +239,6 @@ both the contact us and message us parts*/
     display: flex;
 }
 
-.Contact, .Message {
-    flex: 1;
-    padding: 10px;
-}
-
 .Message form {
     grid-row: 2;
     grid-column: 2;
@@ -252,11 +247,12 @@ both the contact us and message us parts*/
 
 .Contact, .Message {
     display: flex;
+    flex: 1;
     flex-direction: column;
     background-color: white;
     border: 1px solid var(--accent1-color);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 10px;
 }
 
 .Contact p {
