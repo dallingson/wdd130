@@ -218,7 +218,7 @@ section figcaption {
     margin: 20px;
 }
 
-.team h1 {
+.team h2 {
     display: flex;
     grid-column: 2;
     grid-row: 1;
@@ -240,7 +240,7 @@ both the contact us and message us parts*/
     flex-direction: column;
 }
 
-.double h2 {
+.double h1 {
     text-align: center;
     margin-bottom: 20px;
 }
