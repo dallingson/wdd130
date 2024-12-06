@@ -413,8 +413,8 @@ section figcaption {
 }
 
 .trip-item {
-    background: #fff;
-    border: 1px solid #ddd;
+    background: var(--accent1-color);
+    border-radius: 10px;
     overflow: visible;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -542,14 +542,12 @@ both the contact us and message us parts*/
     grid-column: 2;
 }
 
-
-
 .Contact, .Message {
     display: flex;
     flex: 1;
     flex-direction: column;
     background-color: white;
-    border: 1px solid var(--accent1-color);
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
 }
