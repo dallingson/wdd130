@@ -364,6 +364,7 @@ section figcaption {
     border-radius: 5px;
     font-weight: bold;
     text-transform: uppercase;
+    color: #0c0c0c;
     background-color: var(--accent1-color);
     text-decoration: none;
 }
